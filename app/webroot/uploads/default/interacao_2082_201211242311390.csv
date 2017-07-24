@@ -1,0 +1,24 @@
+﻿Date,Campaign,"Campaign ID","Ad Name","Ad ID",Demographic,"Bucket 1","Bucket 2","% of Impressions","% of Clickers",CTR
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,country,BR,,100.000%,100.000%,0.194%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,F,18-24,23.099%,22.414%,0.158%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,F,25-34,26.804%,36.638%,0.222%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,F,35-44,10.936%,18.103%,0.269%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,F,45-54,7.374%,14.655%,0.323%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,F,55-64,3.965%,2.155%,0.088%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,F,65-100,0.720%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,M,18-24,12.977%,6.034%,0.076%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,M,25-34,10.120%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,M,35-44,2.827%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,gender_age,M,45-54,1.101%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Ad",6005180779267,region,br,"São Paulo",100.000%,100.000%,0.194%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,country,BR,,100.000%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,F,18-24,23.003%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,F,25-34,22.833%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,F,35-44,12.095%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,F,45-54,7.106%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,F,55-64,3.872%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,M,18-24,17.184%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,M,25-34,10.098%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,M,35-44,2.748%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,gender_age,M,45-54,1.063%,0.000%,0.000%
+"Nov 2012","Home Sample 1",6005180778267,"Home Sample - Likes - Sponsored Stories",6005180781467,region,br,"São Paulo",100.000%,0.000%,0.000%

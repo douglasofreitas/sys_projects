@@ -1,0 +1,29 @@
+<?php 
+if(empty($user)){
+    ?>
+    <li class="cat_1"> <?php echo $this->Html->link('Home', '/pages/home');  ?> </li>
+    <li class="cat_1"> <?php echo $this->Html->link('Módulos', '/pages/modulos');  ?> </li>
+    <li class="cat_1"> <?php echo $this->Html->link('Contato', '/pages/contato');  ?> </li>
+    <?php   
+}else{
+	// geral, ainda sem perfil especificado
+    ?>
+    <li class="active cat_1"> <?php echo $this->Html->link('Home', '#');  ?> </li>
+    <li class="cat_1"> <?php echo $this->Html->link('Horário', '/horarios/index');  ?> </li>
+    <li class="cat_1">
+        <?php echo $this->Html->link('Chamados', '/chamados/index');  ?>
+        <ul style="visibility: hidden; display: none; ">
+            <ul>
+                <li> <?php echo $this->Html->link('Criar chamado', '/chamados/add');  ?> </li>
+                <li class="last"><?php echo $this->Html->link('Listar todos', 'chamados/index');  ?></li>
+            </ul>
+        </ul>
+    </li>
+    <li class="cat_1"> <?php echo $this->Html->link('Projetos', '/projetos/index');  ?> </li>
+    <li class="cat_1"> <?php echo $this->Html->link('Clientes', '/clientes/index');  ?> </li>
+    <li class="cat_1"> <?php echo $this->Html->link('Pessoas', '/users/index');  ?> </li>
+    <li class="cat_1"> <?php echo $this->Html->link('Relatórios', '#');  ?> </li>
+    <li class="cat_1"> <?php echo $this->Html->link('Configurações', '/empresas/config');  ?> </li>
+    <?php
+}
+?> 

@@ -1,0 +1,14 @@
+<?php 
+
+
+if(empty($user)){
+	//sem usuário não exibe obções
+	
+}else{
+	
+	foreach($perfis as $perfil){
+		echo '<li class="active "> '.$this->Html->link($perfil['Perfil']['nome'], $perfil['Perfil']['url']).'</li>';
+	}
+	
+}
+?> 

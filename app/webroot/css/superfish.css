@@ -1,0 +1,120 @@
+/********************************************************************************************************************************************************************************/
+/* menu */
+#menu {
+	background: url('image/tail-menu.gif') left top repeat-x #272727;
+	min-height: 45px;
+	margin:0 auto 20px;
+	width:1024px;
+	border-radius:4px;
+	box-shadow: 0px 0px 0px #e2e3e4, 0px 3px 2px #e2e3e4, 0px 0px 0px #f00, 0px 0px 0px #e2e3e4;
+	-moz-box-shadow: 0px 0px 0px #e2e3e4, 0px 3px 2px #e2e3e4, 0px 0px 0px #f00, 0px 0px 0px #e2e3e4;
+	-webkit-box-shadow:  0px 0px 0px #e2e3e4, 0px 3px 2px #e2e3e4, 0px 0px 0px #f00, 0px 0px 0px #e2e3e4;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+#menu > ul > li.cat_1 a{ border-radius:4px 0 0 4px;}
+#menu > ul > li {
+	float: left;
+	z-index: 20;
+	padding:0px 2px 0px 0px;
+	position:relative;
+	background:url(image/menu-a-border.gif) right top no-repeat;
+}
+
+#menu > ul > li > a {
+	font-size: 13px;
+	color: #fff;
+	line-height: 16px;
+	text-decoration: none;
+	display: block;
+	padding: 14px 20px 12px 19px;
+	z-index: 6;
+	position: relative;
+	min-height:19px;
+	background:url(image/menu-a.gif) left -1000px repeat-x;
+	text-transform:uppercase;
+}
+#menu > ul > li.cat_4 > a {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#menu > ul > li > a:hover, #menu > ul > li.sfHover > a, #menu > ul > li.active > a   { background-position:0 0;}
+#menu > ul > li > ul {
+	display: none;
+	position: absolute; 
+	z-index: 5;
+	padding:18px 21px 18px 21px;
+	background:#2a2a2a;
+	left:0px;
+	top:44px;
+	width:135px;
+	margin:0 !important;
+	border-radius:0 0 3px 3px;
+}
+#menu > ul > li:hover > div {
+	display: table;
+}
+#menu > ul > li ul + ul {
+	padding-left: 0px;
+	min-height:162px;
+}
+.main-menu >  li.last { border:none;background: none;}
+#menu > ul  li.last { border:none;background: none;}
+#menu > ul > li ul > li > a {
+	text-decoration: none;
+	padding:0px 0px 0px 0px;
+	color: #9f9e9e;
+	display: block;
+	white-space: nowrap;
+}
+#menu > ul > li ul > li.last > a{ border:none;background: none;}
+#menu > ul > li ul > li > a:hover, #menu > ul > li ul > li.active > a, #menu > ul > li ul > li.sfHover > a {
+	color:#c64b4b;
+}
+#menu > ul > li > ul > ul > li:last-child > a { border:none;background: none;}
+#menu > ul > li > ul > ul > li {
+}
+#menu > ul > li > ul > ul > li:hover, #menu > ul > li > ul > ul > li.active { color:#FFF;}
+#menu > ul > li > ul > ul  li { position:relative;}
+#menu > ul > li > ul > ul > li.last { border:none;background: none;}  
+#menu > ul > li > ul > ul > li  a {
+	color: white;
+        font-size: 15px;
+        text-transform: none;
+        line-height: 25px;
+        text-align: left;
+        padding-left: 5px;
+}
+#menu ul > ul > li ul  { 
+	position:absolute;
+	left:156px;
+	top:-15px;
+	background:#2b2a2a; 
+	width:135px;
+	padding:15px 21px 20px 21px;
+} 
+#menu ul > ul > li ul li a {
+	color: #fff;
+	font-size:12px;
+	text-transform:none;
+	line-height:25px;
+}
+#menu ul > ul > li ul li a:hover, #menu ul > ul > li ul li a.active { color:#c64b4b; }
+#menu  ul li img {
+ position:absolute;
+ background:#fff;
+ display:none;
+ color:#ddd;
+ border-left:1px solid #000;
+ width:161px;
+ height:161px;
+ z-index:99;
+ right:1px; top:1px;
+ 
+}
+#menu  ul li li:hover img { display:none;} 

@@ -1,0 +1,207 @@
+body {
+    min-width: 1240px;
+}
+
+span.legenda {
+    font-size: 10px;
+    margin-left: 10px;
+    color: #555;
+}
+
+span.chamado_prazo_curto {
+    color: #D10000;
+}
+
+span.chamado_atrasado {
+    color: red;
+}
+
+td.destaque_linha {
+    font-weight: bold;
+}
+
+th a{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:12px;
+}
+
+td a {
+	color: #444;
+	text-decoration: none;
+	font-size:14px;
+}
+
+
+th a:hover, td a:hover {
+	color: #999;
+}
+
+.table th {
+	font-size:12px;
+}
+
+div.dataTables_paginate a, div.dataTables_paginate span a {
+	color: #333;
+	text-shadow: 0 1px 0 white;
+}
+
+button a, button a:hover {
+	color: inherit;
+}
+
+span.label i {
+	margin-right:5px;margin-left:5px
+}
+td i {
+	margin-right:5px;margin-left:5px
+}
+
+tr.oculto td{
+	
+	color: #888;
+}
+tr.oculto td a{ 
+	color: #888;
+}
+
+
+tr.fundo_verde td, .table-striped tbody tr.fundo_verde:nth-child(odd) td, .table-striped tbody tr.fundo_verde:nth-child(odd) th{
+	background-color: #E5FFEA;
+}
+tr.fundo_verde td a{
+	
+}
+tr.fundo_vermelho td, .table-striped tbody tr.fundo_vermelho:nth-child(odd) td, .table-striped tbody tr.fundo_vermelho:nth-child(odd) th{
+	background-color: #FFEDED;
+}
+tr.fundo_vermelho td a{
+	
+}
+
+
+a.link_full {
+	display: block;
+	width: auto;
+	height: 26px;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+button.empty {
+	padding: 0px;
+}
+
+div.buttons a {
+	margin-left: 7px;
+}
+
+.icon-money {
+	background-image: url("../img/icons/glyphicons_227_usd.png");
+	background-position: 3px 0px;
+}
+
+div.textarea_disable{
+    min-height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+}
+
+a.destaque {
+    font-weight: bold;
+    display: block;
+    width: auto;
+    padding: 5px;
+    color: #08C;
+    background-color: whiteSmoke;
+    border: 1px solid #DDD;
+}
+
+a.destaque:hover {
+    background-color: #EDEDED;
+    color: #005580;
+}
+
+
+
+/* Perfil do usuário */
+
+.user-profile {
+        padding: 30px 10px;
+        background-color: #444;
+        
+}
+.user-profile figure {
+	margin: 0;
+}
+.user-profile figure::before, .user-profile figure::after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.user-profile figure::after {
+	clear: both;
+}
+.user-profile figure::before, .user-profile figure::after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.user-profile figcaption ul {
+	margin: 2px 0 0;
+	padding: 0;
+	list-style: none;
+}
+.user-profile figcaption ul > li {
+	float: left;
+	display: block;
+}
+.user-profile figcaption ul>li+li{
+	margin-left:4px
+}
+.user-profile figcaption em {
+	font-size: 11px;
+        color: #AAA;
+}
+.user-profile figcaption strong {
+	display: block;
+	line-height: 13px;
+}
+.user-profile figcaption strong a{
+	color: #DDD;
+}
+.user-profile figcaption {
+	float: right;
+	margin-left: 15px;
+	padding-top: 3px;
+	width: 118px;
+}
+.user-profile img {
+	background-color: #C4C1C1;
+	padding: 3px;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+	width: 56px;
+}
+.user-profile figcaption ul a {
+	font-size: 10px;
+	padding: 3px 6px;
+}
